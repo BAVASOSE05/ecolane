@@ -1,3 +1,4 @@
+/* style.css */
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
@@ -10,17 +11,15 @@ body {
 header {
   background: linear-gradient(to right, #4caf50, #2e7d32);
   color: white;
-  padding: 2rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 2rem 1rem;
+  text-align: center;
 }
 
 .header-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  max-width: 1100px;
-  margin: 0 auto;
+  gap: 1rem;
 }
 
 .header-top h1 {
@@ -34,24 +33,23 @@ header {
   filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.6));
 }
 
-.subtitle {
-  text-align: center;
+.tagline {
+  margin-top: 0.5rem;
   font-size: 1.3rem;
-  margin-top: 1rem;
   font-weight: 500;
 }
 
 main {
   padding: 3rem 2rem;
-  max-width: 1100px;
-  margin: auto;
+  max-width: 900px;
+  margin: 2rem auto;
   background: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
 }
 
 section {
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
 }
 
 h2 {
@@ -65,7 +63,7 @@ h2 {
 h3 {
   color: #388e3c;
   font-size: 1.4rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 ul {
@@ -76,20 +74,17 @@ li {
   margin-bottom: 0.75rem;
 }
 
-.illustration {
-  width: 100%;
-  max-width: 800px;
-  display: block;
-  margin: 2rem auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+.highlight {
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 footer {
   background: #2e7d32;
   color: white;
   text-align: center;
-  padding: 1.5rem;
-  margin-top: 4rem;
+  padding: 1rem;
   font-size: 0.9rem;
 }
