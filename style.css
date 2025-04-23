@@ -1,7 +1,8 @@
-/* Base */
+/* Base styles */
 body {
   font-family: 'Montserrat', sans-serif;
-  margin: 0; padding: 0;
+  margin: 0;
+  padding: 0;
   background: #fdf6e3;
   color: #333;
   line-height: 1.6;
@@ -11,8 +12,8 @@ body {
 header {
   background: linear-gradient(to right, #4caf50, #2e7d32);
   color: #fff;
-  padding: 2rem 1rem;
   text-align: center;
+  padding: 2rem 1rem;
 }
 
 .header-top {
@@ -74,25 +75,15 @@ li {
   margin-bottom: 0.75rem;
 }
 
-/* Image container for consistent cropping */
-.illustration-container {
-  position: relative;
+/* Illustrations */
+.illustration {
+  display: block;
   width: 100%;
-  max-width: 800px;
-  padding-bottom: 56.25%; /* 16:9 ratio */
+  max-width: 700px;
+  height: auto;
   margin: 1.5rem auto;
-  overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.illustration-container img {
-  position: absolute;
-  top: 0; left: 50%;
-  transform: translateX(-50%);
-  min-width: 100%;
-  min-height: 100%;
-  object-fit: cover;
 }
 
 /* Footer */
