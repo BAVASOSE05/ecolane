@@ -33,7 +33,7 @@ header {
   filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.6));
 }
 
-.tagline {
+.subtitle {
   margin-top: 0.5rem;
   font-size: 1.3rem;
   font-weight: 500;
@@ -44,7 +44,7 @@ main {
   max-width: 900px;
   margin: 2rem auto;
   background: white;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
   border-radius: 10px;
 }
 
@@ -74,11 +74,13 @@ li {
   margin-bottom: 0.75rem;
 }
 
-.highlight {
-  font-weight: 600;
-  font-size: 1.2rem;
-  text-align: center;
-  margin-top: 1rem;
+.illustration {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 footer {
@@ -88,3 +90,4 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
 }
+
